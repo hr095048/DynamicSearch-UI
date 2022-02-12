@@ -25,6 +25,7 @@ export class InsuranceServiceService {
     // return this.http.get<any>('http://localhost:9090/planstatus');
     return this.http.get<any>('https://dynamicsearch-app.herokuapp.com/planstatus');
   }
+  // https://dynamicsearch-app.herokuapp.com/
 
   search(req:SearchRequest)  :Observable<SearchResponse[]>{
     // return this.http.post<SearchResponse[]>('http://localhost:9090/plans',req);
