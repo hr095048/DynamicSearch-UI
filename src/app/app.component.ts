@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PlansDataComponent } from './plans-data/plans-data.component';
+
 
 @Component({
   selector: 'app-root',
